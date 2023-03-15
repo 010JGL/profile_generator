@@ -43,47 +43,11 @@ const survey = function() {
     
     rl.close();           // closes the reading/sending files     The InterfaceConstructor instance is finished once the 'close' event is emitted.
     console.log('Your Profile Is Here:');      // log a message showing the profile
-    setTimeout(() => console.log(`${answersObject[0]} really likes ${answersObject[1]} while listening to ${answersObject[2]}. Their favorite meal is ${answersObject[4]} for ${answersObject[3]}. The sport they like the most is ${answersObject[5]}. You should join the avengers with your superpower ${answersObject[6]}`), 2000);
+    setTimeout(() => console.log(`${answersObject[0]} really likes ${answersObject[1]} while listening to ${answersObject[2]}.
+     Their favorite meal is ${answersObject[4]} for ${answersObject[3]}. 
+     The sport they like the most is ${answersObject[5]}. You should join the avengers with your superpower ${answersObject[6]}`), 2000);
   }
 
 };
 
 survey();
-
-
-// r2.question(`What\'s an activity you like doing?`, (answer) => {
-//   console.log(`Great choice : ${answer}`);
-
-//   r2.close();
-
-// });
-// rl.question(`What do you listen to while doing that?`, (answer) => {
-//   console.log(`Great choice : ${answer}`);
-
-//   rl.close();
-
-// });
-// rl.question(`Which meal is your favourite (eg: dinner, brunch, etc.)`, (answer) => {
-//   console.log(`Hmmm tasty : ${answer}`);
-
-//   rl.close();
-
-// });
-// rl.question(`What's your favourite thing to eat for that meal?`, (answer) => {
-//   console.log(`Amazing pick : ${answer}`);
-
-//   rl.close();
-
-// });
-// rl.question(`Which sport is your absolute favourite?`, (answer) => {
-//   console.log(`${answer} is really fun!`);
-
-//   rl.close();
-
-// });
-// rl.question(`What is your superpower? In a few words, tell us what you are amazing at!`, (answer) => {
-//   console.log(`You should join the avengers with : ${answer}`);
-
-//   rl.close();
-
-// });
